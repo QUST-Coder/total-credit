@@ -12,7 +12,7 @@
   var document = document.getElementsByTagName('iframe')[0].contentDocument;
   var slice = uncurryThis(Array.prototype.slice);
   
-  var list = slice(document.getElementsByTagName('td')).filter(function(td, i) { return i % 15 === 5; });
+  var list = slice(document.getElementsByTagName('td')).filter(function(td, i) { return i % 16 === 7; });
   // 删除掉表格的头行
   list.shift();
   
